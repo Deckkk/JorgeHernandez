@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tutorial iconos Google font</title>
+        <meta charset="UTF-8">
+
+        <!--Link a archivos externos-->
+
+        <link rel="stylesheet" href="css/estilos.css">
+
+        <!-- Link para los iconos de Google font--> 
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <h1> Iconos de Google font</h1>
+
+        <p>En la cabecera de documento html insertamos una etiqueta link con el servidor de los iconos, tal que asi :</p>
+        <p> &lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"&gt;</p>
+        
+        <h1>Inserccion de ICONOS de Google font </h1>
+
+        
+
+        <p>Para insertar iconos para que se vean en nuestra pagina utilizaremos el siguiente codigo de elementosd HTML &lt;i&gt; o &lt;span&gt;</p>
+        
+        <p>&lt;i class="material-icons"&gt; home&lt;/i&gt;</p>
+        <i class="material-icons"> home</i>
+
+        <h1>Si queremos podemos combinar etiquetas con el &lt;i&gt; o el &lt;span&gt;</h1>
+
+        <p>Simplemente insertando etiquetas dentro de otras como a continuacion : </p>
+        <p>&lt;a href="www.google.com"&gt;&lt;i class="material-icons"&gt; home&lt;/i&gt;&lt;/a&gt;</p>
+        <a href="https://www.google.com"><i class="material-icons"> home</i></a>
+
+        <h1>Cambiar las propiedades de los iconos</h1>
+
+        <p>Para modificar las propiedades de los iconos simplemente tendremos que <br> 
+            o bien, crear un archivo css modificando las clases de los iconos o desde <br>
+             la propia etiqueta de html correspondiente añadir el atributo Style con las <br>
+              propiedades correspondientes. </p>
+
+        <p>Asi podriamos hacer lo siguiente.</p>
+
+        <h3>Hoja de estilos CSS</h3>
+
+        <span class="material-icons span">home</span>
+
+        <h4>HTML</h4>
+        <p>&lt;span class="material-icons span"&gt;home&lt;/span&gt;</p>
+
+        <h4>CSS</h4>
+        <p>.material-icons.span { <br>
+                font-size: 40px; <br>
+                color: red; <br>
+            }
+        </p>
+
+        <h3>En el propio documento HTML</h3> 
+        
+        <i style="font-size: 16px; color: darkkhaki;" class="material-icons"> home</i>
+        <i style="font-size: 30px; color: darkorchid;" class="material-icons"> home</i>
+        <i style="font-size: 50px; color: green;" class="material-icons"> home</i>
+
+        <h4>HTML</h4>
+        
+        <p>
+            &lt;i style="font-size: 16px; color: darkkhaki;" class="material-icons"&gt; home&lt;/i&gt;<br>
+            &lt;i style="font-size: 30px; color: darkorchid;;" class="material-icons"&gt; home&lt;/i&gt;<br>
+            &lt;i style="font-size: 50px; color: green;" class="material-icons"&gt; home&lt;/i&gt;
+        </p>
+
+    </body>
+</html>
