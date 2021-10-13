@@ -1,0 +1,157 @@
+* {
+    margin: 0cm;
+    padding: 0cm;
+    outline: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(201, 228, 247);
+    display: block;
+
+}
+nav {
+    background-color: navy;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: sticky;
+    margin: 0;
+    top: 0;
+}
+nav a {
+    font-size: 40px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 0.5cm;
+    text-decoration: none;
+   
+}
+nav a:hover {
+    background-color: rgb(42, 206, 157);
+    color: black;
+    text-decoration: none;
+    text-shadow: 5px 5px 10px navy;
+}
+.material-icons.nav {
+    font-size: 40px;
+    color: aquamarine;
+}
+.Inicio {
+    z-index: 3;
+}
+header img {
+    margin-top: 0cm;
+    margin-bottom: 0%;
+}
+.Titulo1 {
+    font-size: 30px;
+    margin: 1cm;
+    text-align: center;
+    text-decoration: solid;
+}
+.Introduccion {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 1cm;
+    margin-top: 1cm;
+    text-align: justify;
+}
+.Logo {
+    margin: 1cm;
+    margin-top: 0cm;
+    float: right;
+    width: 150px;
+    padding: 5px;
+}
+footer {
+    margin-bottom: 3cm;
+}
+table {
+    border-style: solid;
+    border-color:seagreen;
+    border-radius: 5%;
+    background-color: lightseagreen;
+    margin: auto;
+    padding: 5%;
+}
+table td {
+    padding: 15px;
+}
+aside {
+    border-radius: 5%;
+    border-style:solid;
+    border-color: seagreen;
+    padding: 1cm;
+    background-color: mediumspringgreen;
+    top: 5;
+    margin-top: 3cm;
+    right: 30px;
+    position:fixed;
+    float:left;
+}
+article {
+    padding: 1cm;
+    margin-left: 3cm;
+    margin-right: 4.8cm;
+    margin-top: 2cm;
+    margin-bottom: 1.5cm;
+    float: right;
+    z-index: -10;
+}
+.Tema {
+    margin: 3cm;
+    padding: 3cm;
+}
+article h1 {
+    font-size: 40px;
+}
+a {
+    text-emphasis: none;
+    text-decoration: none;
+    text-decoration-color: none;
+}
+section article a img {
+    border-radius: 5%;
+    border: 3px solid;
+    border-color: teal;
+}
+p {
+    font-size: 18px;
+}
+article table tr td:hover {
+    background-color: navy;
+}
+article table tr td :hover {
+    color: oldlace;
+}
+body section {
+    display: block;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 5%;
+    z-index: -30;
+}
+
+.Temas {
+     background-color: rgb(222, 248, 242);
+     border: 2px solid;
+     border-radius: 15%;
+     border-color: rgb(35, 53, 1);
+     box-shadow: 5px 5px 10px navy;
+     padding: 0.5cm;
+     margin: 0.5cm;
+     
+     width: 4cm;
+     height: 2.5cm;
+     top: 1cm;
+     
+}
+.TemasDesplegable {
+    position: fixed;
+    transition: 2.5s;
+    display:inline-flex;
+    top: 270px;
+    z-index: -1;
+}
