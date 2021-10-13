@@ -1,0 +1,74 @@
+* {
+	margin: 0px;
+	padding: 0px; 
+	outline: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(185, 224, 250);
+    padding: 0cm;
+    position: fixed;
+}
+nav {
+    background-color: navy;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: sticky;
+    margin: 0;
+    top: 0;
+    z-index: 2;
+}
+nav a {
+    font-size: 40px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 0.5cm;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: rgb(42, 206, 157);
+    color: black;
+    text-decoration: none;
+    text-shadow: 5px 5px 10px navy;
+}
+.material-icons.nav {
+    font-size: 40px;
+    color: aquamarine;
+}
+header img {
+    margin-top: 0cm;
+    margin-bottom: 0%;
+    z-index: 2;
+}
+
+section {
+    display: block;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 5%;
+}
+
+.Temas {
+     background-color: rgb(222, 248, 242);
+     border: 2px solid;
+     border-radius: 15%;
+     border-color: rgb(35, 53, 1);
+     box-shadow: 5px 5px 10px navy;
+     padding: 0.5cm;
+     margin: 0.5cm;
+     
+     width: 4cm;
+     height: 2.5cm;
+     top: 1cm;
+     
+}
+.TemasDesplegable {
+    position: fixed;
+    transition: 2.5s;
+    display:inline-flex;
+    top: -1000px;
+    z-index: -1;
+}
