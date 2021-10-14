@@ -49,53 +49,13 @@ section {
     margin-right: 7%;
     margin-top: 5%;
 }
+article img {
+    float: right;
+    padding: 1cm;
+}
 p {
     padding: 1cm;
     margin: 0.5cm;
-}
-.Temas p {
-    padding: 0.5cm;
-    margin: 0; 
-}
-.Foto_Portada {
-    float: right;
-    display: block;
-    margin: 5px;
-    padding: 1.5cm;
-    width: 30%;
-    height: 30%;
-    border-radius: 40%;
-    padding-bottom: 0.5cm;
-}
-.Articulo h2 {
-    font-size: 32px;
-    padding: 0.5cm;
-
-}
-.Articulo p {
-    padding: 1cm;
-    font-size: 15px;
-}
-.Articulo {
-    background-color: rgb(222, 248, 242);
-    border: 2px solid;
-    border-radius: 3%;
-    border-color: rgb(35, 53, 1);
-    box-shadow: 5px 5px 10px navy;
-
-    display: inline-flexbox;
-}
-.Bienvenida {
-    padding: 1cm;
-    margin: 0.5cm;
-}
-.Bienvenida h1 {
-    font-size: 32px;
-    text-align: center;
-}
-.Bienvenida p {
-    font-size: 15px;
-    text-align: center;
 }
 .Temas {
      background-color: rgb(222, 248, 242);
@@ -118,4 +78,8 @@ p {
     left: -100%;
     top: 270px;
     z-index: 1;
+}
+.Temas p {
+    padding: 0.5cm;
+    margin: 0; 
 }
