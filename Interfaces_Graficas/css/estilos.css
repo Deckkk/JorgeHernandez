@@ -72,10 +72,10 @@ p {
     padding: 0.5cm;
 
 }
-.Articulo p {
+/* .Articulo p {
     padding: 1cm;
     font-size: 15px;
-}
+} */
 .Articulo {
     background-color: rgb(222, 248, 242);
     border: 2px solid;
