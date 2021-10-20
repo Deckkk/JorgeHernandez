@@ -53,6 +53,13 @@ article {
     display: block;
     margin: 3cm;
 }
+article div {
+    background-color: rgb(198, 245, 234);
+    display: inline-table;
+    margin: 1cm;
+    padding: 1cm;
+    width: 100%;
+}
 hr {
     margin: 0.5cm;
 }
