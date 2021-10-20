@@ -45,7 +45,7 @@ header img {
 
 section {
     display: block;
-    margin-left: 7%;
+    margin-left: 0%;
     margin-right: 7%;
     margin-top: 5%;
 }
@@ -60,6 +60,11 @@ article div {
     padding: 1cm;
     width: 100%;
 }
+.Documentos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 hr {
     margin: 0.5cm;
 }
@@ -69,13 +74,18 @@ hr {
     margin: 1cm;
 }
 .PDF {
-    display: inline-block;
+    display: inline-flex;
     text-decoration: none;
+    justify-content: center;
     border: 2px solid black;
-    background-color: rgb(222, 248, 242) ;
+    /* background-color: rgb(222, 248, 242) ; */
     padding: 0.3cm;
     margin: 1cm;
     border-radius: 5%;
+}
+.PDF h4 {
+    display: inline;
+    justify-content: center;
 }
 h2 {
     text-align: center;
