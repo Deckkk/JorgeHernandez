@@ -18,7 +18,7 @@ nav {
     position: sticky;
     margin: 0;
     top: 0;
-    z-index: 2;
+    /* z-index: ; */
 }
 nav a {
     font-size: 40px;

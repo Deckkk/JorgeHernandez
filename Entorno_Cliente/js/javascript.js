@@ -1,10 +1,9 @@
+/* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
 
-function myFunction() {
-    var y = document.getElementById('TemasDesplegable');
-      if ( y.style.top === '-1000px' ) {
-        y.style.top = '270px';
-      } else { 
-          y.style.top = '-1000px';
-      }
-  }
-  
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}

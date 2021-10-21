@@ -6,6 +6,7 @@
 
         <!--Links a archivos externos -->
         <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/estilos_temas.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
         <script language="JavaScript" type="text/javascript" src="js/Script_1.js"></script>
@@ -21,47 +22,33 @@
         <nav id="Menu">
             <a href="../../../index.html"><i class="material-icons nav">home</i>  INICIO</a>
             <a href="#Descargas"><i class="material-icons nav">download</i>  DESCARGAS</a>
-            <a href="javascript:myFunction()" id="TEMAS"><i class="material-icons nav">menu_book</i>  TEMAS</a>
+            <a href="javascript:void(0)" id="TEMAS" onclick="openNav()"><i class="material-icons nav">menu_book</i>  TEMAS</a>
             <a href=""><i class="material-icons nav search">search</i>  BUSQUEDA</a>
         </nav>
-        <section class="TemasDesplegable" id="TemasDesplegable">
-            <a href="../../index.html">
-                <div class="Temas">
-                    <h2>PORTADA</h2>
-                    <p>Pagina Inicial de Intefaces Graficas</p>
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <div class="overlay-content">
+                    <a href="../../index.html"># TEMA 0 : Interfaces gráficas</a>
+    
+                    <a href="#"># TEMA 1 : Planificación</a>
+                    
+                    <a href="#"># TEMA 2 : Uso de estilos</a>
+                    
+                    <a href="#"># TEMA 3 : Contenido multimedia</a>
+                    
+                    <a href="#"># TEMA 4 : Webs Accesibles</a>
+                    
+                    <a href="#"># TEMA 6 : Usabilidad en la Web</a>
                 </div>
-            </a>
-            <a href="">
-                <div class="Temas">
-                    <h2>TEMA 1</h2>
-                    <p>Planificacion de interfaces graficas</p>
-                </div>
-            </a>
-            <a href="">
-            <div class="Temas">
-                <h2>TEMA 2</h2>
-                <p>Uso de estilos</p>
             </div>
-            </a>
-            <a href="">
-                <div class="Temas">
-                    <h2>TEMA 3</h2>
-                    <p>Implantacion de contenido multimedia</p>
-                </div>
-            </a>
-            <a href="">
-                <div class="Temas">
-                    <h2>TEMA 4</h2>
-                    <p>Diseño de Webs accesibles</p>
-                </div>
-            </a>
-            <a href="">
-                <div class="Temas">
-                    <h2>TEMA 6</h2>
-                    <p>Implementacion de usabilidad</p>
-                </div>
-            </a>
-        </section>
+        
+        </div>
         <section>
             <article>
                 <h1>PLANIFICACION DE INTERFACES GRAFICAS</h1>

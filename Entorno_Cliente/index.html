@@ -6,6 +6,7 @@
 
         <!--Links a archivos externos-->
         <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/estilos_temas.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
         <script language=JavaScript type="text/javascript" src="js/javascript.js"></script>
@@ -21,31 +22,29 @@
         <nav id="Menu">
             <a href="../index.html"><i class="material-icons nav">home</i>  INICIO</a>
             <a href="#Descargas"><i class="material-icons nav">download</i>  DESCARGAS</a>
-            <a href="javascript:myFunction()" id="TEMAS"><i class="material-icons nav">menu_book</i>  TEMAS</a>
+            <a href="javascript:void(0)" id="TEMAS" onclick="openNav()"><i class="material-icons nav">menu_book</i>  TEMAS</a>
             <a href=""><i class="material-icons nav search">search</i>  BUSQUEDA</a>
         </nav>
-        <section class="TemasDesplegable" id="TemasDesplegable">
-            <div class="Temas">
-                <h2>TEMA 1</h2>
-                <p>Planificacion de interfaces graficas</p>
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+            <!-- Overlay content -->
+            <div class="overlay-content">
+            <a href="#"># TEMA 1 : Planificación de interfaces gráficas</a>
+            <p>-------------</p>
+            <a href="#"># TEMA 2 : Uso de estilos</a>
+            <p>-------------</p>
+            <a href="#"># TEMA 3 : Implantación de contenido multimedia</a>
+            <p>-------------</p>
+            <a href="#"># TEMA 4 : Diseño de Webs Accesibles</a>
+            <p>-------------</p>
+            <a href="#"># TEMA 6 : Implementación de la usabilidad en la Web</a>
             </div>
-            <div class="Temas">
-                <h2>TEMA 2</h2>
-                <p>Uso de estilos</p>
-            </div>
-            <div class="Temas">
-                <h2>TEMA 3</h2>
-                <p>Implantacion de contenido multimedia</p>
-            </div>
-            <div class="Temas">
-                <h2>TEMA 4</h2>
-                <p>Diseño de Webs accesibles</p>
-            </div>
-            <div class="Temas">
-                <h2>TEMA 6</h2>
-                <p>Implementacion de usabilidad</p>
-            </div>
-        </section>
+        
+        </div>
         <section>
             <!-- Articulos para la zona principal y central de la pagina-->
             <article>
