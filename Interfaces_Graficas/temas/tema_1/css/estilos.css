@@ -7,7 +7,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: rgb(185, 224, 250);
+    background-color: rgb(90, 135, 233);
     padding: 0cm;
 }
 nav {
@@ -59,6 +59,11 @@ article div {
     margin: 1cm;
     padding: 1cm;
     width: 100%;
+
+    border: 2px solid;
+    border-radius: 3%;
+    border-color: rgb(35, 53, 1);
+    box-shadow: 5px 5px 10px navy;
 }
 .Documentos {
     display: flex;
@@ -88,11 +93,16 @@ hr {
     justify-content: center;
 }
 h2 {
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 25;
+    font-size: 30px;
     text-decoration: double;
 }
 p {
+    border-radius: 3%;
+    width: 30%;
+    background-color: rgba(113, 150, 145, 0.6);
+    color: rgb(255, 255, 255);
     padding: 1cm;
     margin: 0.5cm;
 }

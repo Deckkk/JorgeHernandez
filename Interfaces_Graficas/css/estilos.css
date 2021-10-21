@@ -7,7 +7,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: rgb(185, 224, 250);
+    background-color: rgb(90, 135, 233);
     padding: 0cm;
 }
 nav {
@@ -50,6 +50,9 @@ section {
     margin-top: 5%;
 }
 p {
+    width: 45%;
+    background-color: rgb(24, 25, 26, 0.8);
+    color: aliceblue;
     padding: 1cm;
     margin: 0.5cm;
 }
