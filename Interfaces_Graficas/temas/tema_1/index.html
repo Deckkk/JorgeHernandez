@@ -11,8 +11,10 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
         <script language="JavaScript" type="text/javascript" src="js/Script_1.js"></script>
+        <script language="JavaScript" type="text/javascript" src="js/Script_2.js"></script>
+
     </head>
-    <body>
+    <body onload="currentSlide(1)">
 
         <!--Cabecera de la pagina-->
         <header>
@@ -100,21 +102,25 @@
             <article>
                 <div class="Contenedor"  style="background-image: url('./imagenes/Fondo_Articulos.png');">
                     <h2>COLORES</h2>
-                    <img src="./imagenes/Colores.png" alt="Colores_web" width="600px" height="400px" class="imgArticle">
-                    <p>El color es el medio esencial para tocar las emociones de los visitantes de tu sitio web pues crea una 
-                        reacción física y emocional en los espectadores. Los colores son capaces de establecer el tono adecuado
-                         para llevar el mensaje a los visitantes: pueden calmar, excitar, estimular a las acciones… 
-
-                        El color es extremadamente poderoso. Cuando se establece un esquema de color para el diseño web es 
-                        importante hacerlo correctamente, guiándose por los principios de la teoría del color y sobre todo,
-                         siguiendo los consejos profesionales.
-                    </p>
-                    <p>
-                        Cada color provoca en las personas unas sensaciones determinadas y está asociado a distintas emociones,
-                         por lo que éste influye de manera determinante en cómo se sienten y comportan los usuarios en tu web.
-                        Acertar con la elección y cantidad de colores que utilizas en tu página es fundamental para que ésta refleje
-                         correctamente quién eres y cuál es la filosofía de tu negocio.
-                    </p>
+                    <div class="Content">
+                        <img src="./imagenes/Colores.png" alt="Colores_web" width="600px" height="400px" class="imgArticle">
+                        <div class="Parragraph">
+                            <p>El color es el medio esencial para tocar las emociones de los visitantes de tu sitio web pues crea una 
+                                reacción física y emocional en los espectadores. Los colores son capaces de establecer el tono adecuado
+                                 para llevar el mensaje a los visitantes: pueden calmar, excitar, estimular a las acciones… 
+        
+                                El color es extremadamente poderoso. Cuando se establece un esquema de color para el diseño web es 
+                                importante hacerlo correctamente, guiándose por los principios de la teoría del color y sobre todo,
+                                 siguiendo los consejos profesionales.
+                            </p>
+                            <p>
+                                Cada color provoca en las personas unas sensaciones determinadas y está asociado a distintas emociones,
+                                 por lo que éste influye de manera determinante en cómo se sienten y comportan los usuarios en tu web.
+                                Acertar con la elección y cantidad de colores que utilizas en tu página es fundamental para que ésta refleje
+                                 correctamente quién eres y cuál es la filosofía de tu negocio.
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div class="Contenedor Documentos" style="background-image: url('./imagenes/Fondo_Articulos.png');">
                     <h2>Documentacion de Colores en paginas Web</h2>
@@ -137,20 +143,26 @@
                         <!-- Full-width images with number and caption text -->
                         <div class="mySlides fade">
                           <div class="numbertext">1 / 3</div>
-                          <img src="./imagenes/Doc/Doc_5.png" style="width:100%">
-                          <div class="text">Caption Text</div>
+                            <a href="http://www.color-wheel-pro.com/.">
+                                <img src="./imagenes/Carrusel/C_1.png" style="width:100%; border-radius: 5%;">
+                                <div class="text"><h4>Color Wheel</h4></div>
+                            </a>
                         </div>
                       
                         <div class="mySlides fade">
                           <div class="numbertext">2 / 3</div>
-                          <a href="http://www.colorlovers.com/palettes/add"><img src="./imagenes/Doc/Doc_6.png" style="width:100%"></a>
-                          <div class="text">Caption Two</div>
+                            <a href="http://www.colorlovers.com/palettes/add">
+                                <img src="./imagenes/Carrusel/C_2.png" style="width:100%; border-radius: 5%;">
+                                <div class="text"><h4>ColorLovers</h4></div>
+                            </a>
                         </div>
                       
                         <div class="mySlides fade">
                           <div class="numbertext">3 / 3</div>
-                          <a href="http://colourlovers.com/copaso/s://material.io/resources/color/#!/?"><img src="./imagenes/Doc/Doc_7.png" style="width:100%"></a>
-                          <div class="text">Caption Three</div>
+                            <a href="http://colourlovers.com/copaso/s://material.io/resources/color/#!/?">
+                                <img src="./imagenes/Carrusel/C_3.png" style="width:100%; border-radius: 5%;">
+                                <div class="text"><h4>Material Design</h4></div>
+                            </a>
                         </div>
                       
                         <!-- Next and previous buttons -->
@@ -166,9 +178,6 @@
                         <span class="dot" onclick="currentSlide(3)"></span>
                       </div>
                     
-                      <a href="http://www.color-wheel-pro.com/."> <h4>Color Wheel</h4></a>
-                   <h4>ColorLovers</h4></a>
-                    <h4>Material Design</h4></a>
                     <a href="https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF"></a><h4>Paletton</h4></a>
                 </div>
             </article>
