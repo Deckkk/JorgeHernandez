@@ -42,83 +42,80 @@ header img {
     margin-bottom: 0%;
     z-index: 2;
 }
-
 section {
     display: block;
-    margin-left: 7%;
+    margin-left: 0%;
     margin-right: 7%;
     margin-top: 5%;
 }
-p {
-    width: 45%;
-    background-color: rgb(24, 25, 26, 0.8);
-    color: aliceblue;
-    padding: 1cm;
-    margin: 0.5cm;
-}
-.Temas p {
-    padding: 0.5cm;
-    margin: 0; 
-}
-.Foto_Portada {
-    float: right;
-    display: block;
-    margin: 5px;
-    padding: 1.5cm;
-    width: 30%;
-    height: 30%;
-    border-radius: 40%;
-    padding-bottom: 0.5cm;
-}
-.Articulo h2 {
-    font-size: 32px;
-    padding: 0.5cm;
 
+article {
+    display: block;
+    margin: 3cm;
 }
-/* .Articulo p {
+.Content {
+    display: flex;
+    flex-direction: row;
+}
+.Content img {
+    width: 45%;
+    height: auto;
+}
+.Parragraph {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.Contenedor {
+    background-color: rgb(198, 245, 234);
+    display: inline-table;
+    margin: 1cm;
     padding: 1cm;
-    font-size: 15px;
-} */
-.Articulo {
-    background-color: rgb(222, 248, 242);
+    width: 100%;
+
     border: 2px solid;
     border-radius: 3%;
     border-color: rgb(35, 53, 1);
     box-shadow: 5px 5px 10px navy;
-
-    display: inline-flexbox;
 }
-.Bienvenida {
-    padding: 1cm;
+.Documentos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+hr {
     margin: 0.5cm;
 }
-.Bienvenida h1 {
-    font-size: 32px;
+.imgArticle {
+    float: right;
+    padding: 1cm;
+    margin: 1cm;
+}
+.PDF {
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 0.3cm;
+    margin: 1cm;
+    border-radius: 5%;
+}
+.PDF h4 {
+    display: inline;
+    justify-content: center;
+}
+h2 {
+    margin: 0.5cm;
+    color: rgb(255, 255, 255);
     text-align: center;
+    font-size: 30px;
+    text-decoration: double;
 }
-.Bienvenida p {
-    font-size: 15px;
-    text-align: center;
-}
-.Temas {
-     background-color: rgb(222, 248, 242);
-     border: 2px solid;
-     border-radius: 15%;
-     border-color: rgb(35, 53, 1);
-     box-shadow: 5px 5px 10px navy;
-     padding: 0.5cm;
-     margin: 0.5cm;
-     
-     width: 4cm;
-     height: 2.5cm;
-     top: 1cm;
-}
-.TemasDesplegable {
-    position: fixed;
-    transition: 1.5s;
-    display:inline-flex;
-
-    left: -100%;
-    top: 270px;
-    z-index: 1;
+p {
+    border-radius: 3%;
+    width: auto;
+    background-color: rgba(62, 110, 92, 0.6);
+    color: rgb(255, 255, 255);
+    padding: 1cm;
+    margin: 0.5cm;
 }

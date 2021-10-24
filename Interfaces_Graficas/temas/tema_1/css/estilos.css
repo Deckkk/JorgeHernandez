@@ -42,7 +42,6 @@ header img {
     margin-bottom: 0%;
     z-index: 2;
 }
-
 section {
     display: block;
     margin-left: 0%;
@@ -96,7 +95,6 @@ hr {
     text-decoration: none;
     justify-content: center;
     border: 2px solid black;
-    /* background-color: rgb(222, 248, 242) ; */
     padding: 0.3cm;
     margin: 1cm;
     border-radius: 5%;
@@ -106,6 +104,7 @@ hr {
     justify-content: center;
 }
 h2 {
+    margin: 0.5cm;
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 30px;
@@ -114,34 +113,8 @@ h2 {
 p {
     border-radius: 3%;
     width: auto;
-    background-color: rgba(113, 150, 145, 0.6);
+    background-color: rgba(62, 110, 92, 0.6);
     color: rgb(255, 255, 255);
     padding: 1cm;
     margin: 0.5cm;
-}
-.Temas {
-     background-color: rgb(222, 248, 242);
-     border: 2px solid;
-     border-radius: 15%;
-     border-color: rgb(35, 53, 1);
-     box-shadow: 5px 5px 10px navy;
-     padding: 0.5cm;
-     margin: 0.5cm;
-     
-     width: 4cm;
-     height: 2.5cm;
-     top: 1cm;
-}
-.TemasDesplegable {
-    position: fixed;
-    transition: 1.5s;
-    display:inline-flex;
-
-    left: -100%;
-    top: 270px;
-    z-index: 1;
-}
-.Temas p {
-    padding: 0.5cm;
-    margin: 0; 
 }
