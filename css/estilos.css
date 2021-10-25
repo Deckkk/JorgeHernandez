@@ -57,21 +57,20 @@ header {
   color: #f1f1f1;
   width: 20%;
   padding: 20px;
-
+  display: inline-table;
   border: 2px solid;
   border-color: rgb(31, 14, 0) ;
-  transition: 0.7s;
+  transition: 0.5s;
 
-  top:-700px;
+  top:-2000px;
 
-  margin-left: 37%;
-  margin-right: 30%;
   margin-top: 12%;
   margin-bottom: 15%;
   border-radius: 10%;
 }
 
 #Eslogan {
+  top: 5%;
   z-index: 3;
   font-size: 90px;
   text-align: center;
@@ -80,12 +79,11 @@ header {
   text-shadow: 5px 5px 10px navy;
 }
 
-#myBtn {
+.myBtn {
   top: 60%;
   width: auto;
-
+  position: fixed;
   transition: 0.5s;
-
   font-size: 30px;
   padding: 10px;
   border: none;
