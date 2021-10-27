@@ -54,11 +54,6 @@ article {
 .Content {
     display: flex;
     flex-direction: column;
-
-}
-.Content img {
-    width: auto;
-    height: auto;
 }
 .Parragraph {
     display: flex;
@@ -121,8 +116,8 @@ p {
         scroll-behavior: smooth;
     }
     body {
-        background-color: rgb(90, 135, 233);
-        padding: 0cm;
+        background-color: #cccccc;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 110, 255));
     }
     nav {
         background-color: navy;
@@ -171,6 +166,7 @@ p {
     .Content {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
     }
     .Content img {
         width: 45%;
@@ -190,7 +186,7 @@ p {
     
         border: 2px solid;
         border-radius: 3%;
-        border-color: rgb(35, 53, 1);
+        border-color: rgb(1, 44, 7);
         box-shadow: 5px 5px 10px navy;
     }
     .Documentos {
@@ -200,11 +196,6 @@ p {
     }
     hr {
         margin: 0.5cm;
-    }
-    .imgArticle {
-        float: right;
-        padding: 1cm;
-        margin: 1cm;
     }
     .PDF {
         display: inline-flex;
@@ -229,9 +220,8 @@ p {
     p {
         border-radius: 3%;
         width: auto;
-        background-color: rgba(62, 110, 92, 0.6);
+        background-color: rgba(4, 68, 41, 0.6);
         color: rgb(255, 255, 255);
-        padding: 1cm;
-        margin: 0.5cm;
+        padding: 0.5cm;
     }
 }
