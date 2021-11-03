@@ -45,6 +45,12 @@ header img {
     margin-bottom: 0%;
     z-index: 2;
 }
+.imgArticle {
+    width: auto;
+    height: auto;
+    margin-bottom: 00.5cm;
+    margin-top: 00.5cm;
+}
 section {
     display: block;
 }
