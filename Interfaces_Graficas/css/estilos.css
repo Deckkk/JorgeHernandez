@@ -103,13 +103,10 @@ h2 {
     font-size: 30px;
     text-decoration: double;
 }
-p {
-    border-radius: 3%;
-    width: auto;
-    background-color: rgba(62, 110, 92, 0.6);
-    color: rgb(255, 255, 255);
-    padding: 1cm;
-    margin: 0.5cm;
+
+
+.seccion {
+    background: url('./imagenes/Fondo_Articulos.png');;
 }
 
 @media only screen and (min-width: 1200px) { 
@@ -159,16 +156,7 @@ p {
         margin-bottom: 0%;
         z-index: 2;
     }
-    section {
-        display: block;
-        margin-left: 0%;
-        margin-right: 7%;
-        margin-top: 5%;
-    }
-    article {
-        display: block;
-        margin: 3cm;
-    }
+
     .Content {
         display: flex;
         flex-direction: row;
@@ -179,9 +167,8 @@ p {
         height: auto;
     }
     .Parragraph {
-        display: flex;
-        flex-direction: column;
-        width: 45%;
+        width: 80%;
+        text-align: center;
     }
     .Contenedor {
         background-color: rgb(198, 245, 234);
@@ -226,8 +213,24 @@ p {
     p {
         border-radius: 3%;
         width: auto;
-        background-color: rgba(4, 68, 41, 0.6);
         color: rgb(255, 255, 255);
         padding: 0.5cm;
     }
+
+    .seccion {
+        padding: 4rem;
+        margin-bottom: 2rem;
+        border: 2px solid rgb(11, 25, 156);
+        background: url('../imagenes/Fondo_Articulos.png') ;
+    }
+
+    /* background-color: rgba(3, 27, 17, 0.5); */
+
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+       }
 }
