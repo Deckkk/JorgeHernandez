@@ -53,6 +53,7 @@ header img {
 }
 section {
     display: block;
+    width: 95%;
 }
 article {
     display: block;
@@ -169,6 +170,9 @@ h2 {
     .Parragraph {
         width: 80%;
         text-align: center;
+        width: 40%;
+        background-color:rgba(0, 0, 0, 0.5);
+        border-radius: 5%;
     }
     .Contenedor {
         background-color: rgb(198, 245, 234);
@@ -205,22 +209,25 @@ h2 {
     }
     h2 {
         margin: 0.5cm;
-        color: rgb(213, 247, 227);
+        color: rgb(255, 255, 255);
         text-align: center;
         font-size: 30px;
         text-decoration: double;
+        text-shadow: 5px 5px 10px navy;
     }
     p {
         border-radius: 3%;
         width: auto;
         color: rgb(255, 255, 255);
         padding: 0.5cm;
+        
+        font-size: 20px;
     }
 
     .seccion {
         padding: 4rem;
         margin-bottom: 2rem;
-        border: 2px solid rgb(11, 25, 156);
+        border: 2px solid rgb(212, 217, 253);
         background: url('../imagenes/Fondo_Articulos.png') ;
     }
 
@@ -228,9 +235,36 @@ h2 {
 
     .contenido {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-around;
         align-items: center;
 
        }
+
+    .Foto_Portada {
+        width: 40%;
+        height: 100%;
+        border-radius: 5%;
+    }
+
+    h3 a{
+        font-size: 26px;
+        color: seashell;
+        text-shadow: 5px 5px 10px navy;
+        text-decoration: none;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    a h4 {
+        background-color: rgba(3, 3, 3, 0.4);
+        width: 0 auto;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        text-shadow: 5px 5px 10px navy;
+    }
+
+    
 }

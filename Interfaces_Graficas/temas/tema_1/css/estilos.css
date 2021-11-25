@@ -85,11 +85,7 @@ article {
 hr {
     margin: 0.5cm;
 }
-.imgArticle {
-    float: right;
-    padding: 1cm;
-    margin: 1cm;
-}
+
 .PDF {
     display: inline-flex;
     text-decoration: none;
