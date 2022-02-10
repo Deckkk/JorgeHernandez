@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+
+    <!-- HEAD  -->
+    <head>
+        <!-- Titulo de el documento html -->
+        <title>Diseño de Interfaces</title>
+
+        <!-- meta viewport & codificacion-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Links a hojas de estilo -->
+        <link rel="stylesheet" href="../css/plantilla.css">
+        <link rel="stylesheet" href="../css/iconosRedes.css">
+        <link rel="stylesheet" href="../css/secciones.css">
+
+        <!-- Fuentes de Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+
+        <!-- Iconos de Google font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <!-- BODY  -->
+    <body>
+
+        <!-- HEADER  -->
+        <header>
+
+            <a href="./tema0.html">
+                <div class="container-head">
+                    <!-- Elemento imagen para el logo de la empresa -->
+                    <img class="logo" src="../imagenes/Diseño sin título (3).png" alt="Logo interfaces">
+    
+                    <!-- TItulo de la pagina -->
+                    <h1>Interfaces</h1>
+                </div>
+            </a>
+            
+            <!-- Elemento lista desordenada para el menu -->
+            <ul class="menu">
+                <li><a href="../index.html"><i></i>Home</a></li>
+                <a href="#" onclick="seccionTemas();"><li><i></i>Temas</li></a>
+                <li><a href=""><i></i>Enlaces de Interes</a></li>
+                <i class="fas fa-sun tema-color"></i><i class="fas fa-moon tema-color"></i>
+            </ul>
+
+            
+            <!-- Menu desplegable -->
+            <div class="container-desplegable">
+
+                 <!-- Elemento boton para cerrar menu desplegable -->
+                <span class="cerrarMenu" >&times;</span>
+
+                <ul class="menu-movil">
+                    <li><a href=""><i></i>Home</a></li>
+                    <li><a href=""><i></i>Temas</a></a></li>
+                    <li><a href=""><i></i>Enlaces de Interes</a></li>
+                    <i class="fas fa-sun tema-color"></i><i class="fas fa-moon tema-color"></i>
+                </ul>
+            </div>
+            
+
+            <div class="hamburguesa">
+                <i class="material-icons">menu</i>
+            </div>
+
+        </header>
+
+        <!-- Contenedor main para la contenido principal -->
+        <main class="container-2" id="container-2">
+
+            <aside class="aside-temas">
+
+                <h2>Secciones</h2>
+
+                <ul class="menu-temas">
+                    <li><a href="#" onclick="Diseño();">Diseño</a></li>
+                    <li><a href="#" onclick="Colores();">Colores</a></li>
+                    <li><a href="#" onclick="Tipografias();">Tipografias</a></li>
+                    <li><a href="#" onclick="Iconos();">Iconos</a></li>
+                    <li><a href="#" onclick="Prototipos();">Prototipos</a></li>
+                    <li><a href="#" onclick="Guias();">Guias de estilos</a></li>
+                    <li><a href="#" onclick="Sitemaps();">Sitemaps</a></li>
+                    <li><a href="#" onclick="Plantillas();">Plantillas</a></li>
+                </ul>
+
+            </aside>
+
+            <section class="seccion-tema" id="Diseño">
+
+                <div class="main-info-tema">
+
+                    <h2>Diseño</h2>
+
+                    <div class="intro">
+
+                        <img class="imagen-seccion" src="../imagenes/Diseño1.png" alt="Imagen de Diseño">
+    
+                        <hr>
+    
+                        <p>Debemos tener en cuenta y conocer el diseño de una Interfaz Grafica,
+                             asi como los elementos principales y fundamentales a implantar. 
+                             Actualmente una Interfaz Grafica se compone de 3 secciones principales
+                              las cuales mostramos en la imagen, las cuales son: LA BARRA DE APLICACIONES 
+                              , NAVEGACION , CUERPO.
+                        </p>
+    
+                    </div>
+
+                </div>
+
+                
+
+                <div class="contenido-seccion">
+
+                    <div class="documentacion">
+
+                        <h3>Documentacion</h3>
+
+                        <ul class="ul-contenido">
+                            <li><a href="../documentos/Anatomia_del_Diseño.pdf" download="Anatomia del Diseño"><i class="icono far fa-file-pdf"></i> Anatomia del diseño</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="seccion-tema" id="Colores">
+
+                <div class="main-info-tema">
+
+                    <h2>Colores</h2>
+
+                    <div class="intro">
+
+                        <img class="imagen-seccion" src="../imagenes/colores.jpg" alt="Imagen de colores">
+    
+                        <hr>
+    
+                        <p>El color es el medio esencial para tocar las emociones de los visitantes de tu
+                             sitio web pues crea una reacción física y emocional en los espectadores. Los
+                              colores son capaces de establecer el tono adecuado para llevar el mensaje a
+                               los visitantes: pueden calmar, excitar, estimular a las acciones… El color
+                                es extremadamente poderoso. 
+                        </p>
+    
+                    </div>
+
+                </div>
+
+                
+
+                <div class="contenido-seccion">
+
+                    <div class="documentacion">
+
+                        <h3>Documentacion</h3>
+
+                        <ul class="ul-contenido">
+                            <li><a href="../documentos/Aplicando_colores.pdf" download="Aplicando colores"><i class="icono far fa-file-pdf"></i>Aplicando Colores</a></li>
+                            <li><a href="../documentos/El_sistema_de_color.pdf" download="El sistema de color"><i class="icono far fa-file-pdf"></i>El Sistema de Color</a></li>
+                            <li><a href="../documentos/Seleccion_de_colores.pdf" download="Seleccion de colores"><i class="icono far fa-file-pdf"></i>Seleccion de Colores</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="seccion-tema" id="Tipografias">
+
+                <div class="main-info-tema">
+
+                    <h2>Tipografias</h2>
+
+                    <div class="intro">
+
+                        <img class="imagen-seccion" src="../imagenes/Tipografias.jpg" alt="Imagen de Tipografias">
+    
+                        <hr>
+    
+                        <p> Uno de ellos es la tipografía, la cual sirve para transmitir con claridad 
+                            la información a los visitantes. Las tipografías para web actualmente son muy variadas, 
+                            pero existen ciertos diseños en tendencia que, además de 
+                            ser muy cómodos para los ojos del lector, también le dan 
+                            personalidad a tu sitio.
+                        </p>
+    
+                    </div>
+
+                </div>
+
+                
+
+                <div class="contenido-seccion">
+
+                    <div class="documentacion">
+
+                        <h3>Documentacion</h3>
+
+                        <ul class="ul-contenido">
+                            <li><a href="../documentos/Entendiendo_la_tipografia.pdf" download="Entendiendo la tipografia"><i class="icono far fa-file-pdf"></i>Entendiendo la tipografia</a></li>
+                            <li><a href="../documentos/Tipografias_pagina_web.pdf" download="Tipografias en una pagina Web"><i class="icono far fa-file-pdf"></i>Tipografias en una pagina Web</a></li>
+                            <li><a href="../documentos/w3schools_font.pdf" download="w3schools fonts"><i class="icono far fa-file-pdf"></i>w3schools fonts</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="seccion-tema" id="Iconos">
+
+                <div class="main-info-tema">
+
+                    <h2>Iconos</h2>
+
+                    <div class="intro">
+
+                        <img class="imagen-seccion" src="../imagenes/iconos.png" alt="Imagen de Iconos">
+    
+                        <hr>
+    
+                        <p> Los iconos son una herramienta visual poderosa. Cuando se usan correctamente, mejoran la 
+                            navegación y promueven la satisfacción del usuario. Sin embargo, cuando se emplean de forma
+                             incorrecta, se vuelven molestos y generan un ruido visual indeseado. Por eso, los iconos son
+                              tan importantes en el diseño web.
+                        </p>
+    
+                    </div>
+
+                </div>
+
+                
+
+                <div class="contenido-seccion">
+
+                    <div class="documentacion">
+
+                        <h3>Documentacion</h3>
+
+                        <ul class="ul-contenido">
+                            <li><a href="../documentos/iconos_de_bootstrap.pdf" download="Iconos de bootstrap"><i class="icono far fa-file-pdf"></i>Iconos de bootstrap</a></li>
+                            <li><a href="../documentos/Iconos_de_producto.pdf" download="Iconos de Producto"><i class="icono far fa-file-pdf"></i>Iconos de Producto</a></li>
+                            <li><a href="../documentos/Guia_de_iconos_Material.pdf" download="Guia iconos Material"><i class="icono far fa-file-pdf"></i>Guia iconos Material</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="documentacion">
+
+                        <h3>Prácticas</h3>
+
+                        <ul class="ul-contenido">
+                            <li><a href="../Prácticas/Interfaces/iconos/Tutorial_iconos_Bootstrap.rar"><i class="icono far fa-file-archive"></i>Práctica bootstrap</a></li>
+                            <li><a href="../Prácticas/Interfaces/iconos/Tutorial_iconos_Font_awesome_5.rar"><i class="icono far fa-file-archive"></i>Práctica Font awesome 5</a></li>
+                            <li><a href="../Prácticas/Interfaces/iconos/Tutoriial_iconos_Font_awesome_4.rar"><i class="icono far fa-file-archive"></i>Práctica Font awesome 4</a></li>
+                            <li><a href="../Prácticas/Interfaces/iconos/Tutorial_Iconos_Google.rar"><i class="icono far fa-file-archive"></i>Práctica Google</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="seccion-tema" id="Prototipos">
+
+                <div class="main-info-tema">
+
+                    <h2>Prototipos</h2>
+
+                    <div class="intro">
+
+                        <img class="imagen-seccion" src="../imagenes/prototipo.jpg" alt="Imagen de Prototipos">
+    
+                        <hr>
+    
+                        <p> El prototipado de sitios web nos permite definir de una manera rápida y sencilla 
+                            los bloques o secciones que va a tener cada una de las páginas de un sitio web,
+                             de modo que podamos jerarquizar la información y definir los bloques de contenido.
+                        </p>
+    
+                    </div>
+
+                </div>
+
+                
+
+                <div class="contenido-seccion">
+
+                    <div class="documentacion">
+
+                        <h3>Documentacion</h3>
+
+                        <ul class="ul-contenido">
+                            <li><a href="../documentos/Cowdsourcing.pdf" download="Cowdsourcing"><i class="icono far fa-file-pdf"></i>Cowdsourcing</a></li>
+                            <li><a href="../documentos/Flujo_de_trabajo.pdf" download="Flujo de Trabajo"><i class="icono far fa-file-pdf"></i>Flujo de Trabajo</a></li>
+                            <li><a href="../documentos/Prototipado.pdf" download="Prototipado"><i class="icono far fa-file-pdf"></i>Prototipado</a></li>
+                            <li><a href="../documentos/tutorial_balsamiq.pdf" download="Tutorial Balsamiq"><i class="icono far fa-file-pdf"></i>Tutorial Balsamiq</a></li>
+                            <li><a href="../documentos/wireframes.pdf" download="wireframes"><i class="icono far fa-file-pdf"></i>wireframes</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="documentacion">
+
+                        <h3>Prácticas</h3>
+
+                        <ul class="ul-contenido">
+                            <li><a href="../Prácticas/Interfaces/prototipos/Axure.rar"><i class="icono far fa-file-archive"></i>Práctica Azure</a></li>
+                            <li><a href="../Prácticas/Interfaces/prototipos/Balsamiq.rar"><i class="icono far fa-file-archive"></i>Práctica Balsamiq </a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="seccion-tema" id="Guias-estilo">
+
+                <div class="main-info-tema">
+
+                    <h2>Guias de Estilos</h2>
+
+                    <div class="intro">
+
+                        <img class="imagen-seccion" src="../imagenes/guia.jpg" alt="Imagen de Guias de Estilos">
+    
+                        <hr>
+    
+                        <p> Este fichero es donde se almacena información del estilo del tipo de fuente a utilizar,
+                             los colores, su tamaño, el espaciado entre párrafos, las dimensiones de los diferentes títulos
+                              y un larguísimo etcétera. Gracias a esto, los diseñadores y desarrolladores pueden dotar de un
+                               estilo unificado a todos los apartados y páginas de una web, consiguiendo una imagen homogénea
+                                y característica.
+                        </p>
+    
+                    </div>
+
+                </div>
+
+                
+
+                <div class="contenido-seccion">
+
+                    <div class="documentacion">
+
+                        <h3>Documentacion</h3>
+
+                        <ul class="ul-contenido">
+                            <li><a href="../documentos/Guia de estilos.pdf" download="Guia de estilos"><i class="icono far fa-file-pdf"></i>Guia de estilos</a></li>
+                        </ul>
+
+                    </div>
+
+                    <!-- <div class="documentacion">
+
+                        <h3>Prácticas</h3>
+
+                        <ul class="ul-contenido">
+                            <li><a href="../Prácticas/Interfaces/iconos/Tutorial_iconos_Bootstrap.rar"><i class="icono far fa-file-archive"></i>Práctica bootstrap</a></li>
+                        </ul>
+
+                    </div> -->
+
+                </div>
+
+            </section>
+            
+            <section class="seccion-tema" id="sitemaps">
+
+                <div class="main-info-tema">
+
+                    <h2>Sitemaps</h2>
+
+                    <div class="intro">
+
+                        <img class="imagen-seccion" src="../imagenes/sitemaps.jpg" alt="Imagen de Sitemaps">
+    
+                        <hr>
+    
+                        <p> Como su nombre indica, un sitemap es el mapa de una web y representa cómo está estructurada,
+                             incluyendo las carpetas y subpáginas que la componen. Sin embargo, en la actualidad los
+                              webmasters no necesariamente utilizan los mapas del sitio para facilitar la navegación a
+                               los visitantes, pues los usuarios ya cuentan en las web con otros elementos que hacen el
+                                proceso más sencillo e intuitivo. 
+                        </p>
+    
+                    </div>
+
+                </div>
+
+                
+
+                <div class="contenido-seccion">
+
+                    <div class="documentacion">
+
+                        <h3>Documentacion</h3>
+
+                        <ul class="ul-contenido">
+                            <li><a href="../documentos/sitemaps.pdf" download="sitemaps"><i class="icono far fa-file-pdf"></i>sitemaps</a></li>
+                        </ul>
+
+                    </div>
+
+                    <!-- <div class="documentacion">
+
+                        <h3>Prácticas</h3>
+
+                        <ul class="ul-contenido">
+                            <li><a href="../Prácticas/Interfaces/iconos/Tutorial_iconos_Bootstrap.rar"><i class="icono far fa-file-archive"></i>Práctica bootstrap</a></li>
+                        </ul>
+
+                    </div> -->
+
+                </div>
+
+            </section>
+
+            <section class="seccion-tema" id="plantillas">
+
+                <div class="main-info-tema">
+
+                    <h2>Plantillas</h2>
+
+                    <div class="intro">
+
+                        <img class="imagen-seccion" src="../imagenes/templates.jpg" alt="Imagen de Plantillas">
+    
+                        <hr>
+    
+                        <p> La plantilla web es un recurso fundamental al momento de crear una sitio o página web.
+                             Ya que es la carta de presentación del espacio y es el aspecto visual que se convertirá
+                              en el imán para atraer al público objetivo o internautas.
+
+                            El diseño que se crea dentro de esta plantilla permite tener una estructura, 
+                            donde funciona y respeta los estándares de Internet.
+                        </p>
+    
+                    </div>
+
+                </div>
+
+                
+
+                <div class="contenido-seccion">
+
+                    <!-- <div class="documentacion">
+
+                        <h3>Documentacion</h3>
+
+                        <ul class="ul-contenido">
+                            <li><a href="../documentos/sitemaps.pdf" download="sitemaps"><i class="icono far fa-file-pdf"></i>sitemaps</a></li>
+                        </ul>
+
+                    </div> -->
+
+                    <div class="documentacion">
+
+                        <h3>Prácticas</h3>
+
+                        <ul class="ul-contenido">
+                            <li><a href="../Prácticas/Interfaces/Plantillas/Proyecto_cliente_Boostrap.rar"><i class="icono far fa-file-archive"></i>Práctica bootstrap</a></li>
+                            <li><a href="../Prácticas/Interfaces/Plantillas/starter.rar"><i class="icono far fa-file-archive"></i>Práctica starter Google</a></li>
+                            <li><a href="../Prácticas/Interfaces/Plantillas/parallax.rar"><i class="icono far fa-file-archive"></i>Práctica parallaz Google</a></li>
+                            <li><a href="../Prácticas/Interfaces/Plantillas/wordpress.rar"><i class="icono far fa-file-archive"></i>Práctica wordpress</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <main class="container">
+
+            <section class="section-temas">
+
+
+                <!-- TITULO DE LA SECCION  -->
+                <h1>Temas de Diseño de Interfaces Web</h1>
+
+                <!-- CONTENEDOR ROW  -->
+                <div class="row">
+
+                    <a href="./tema1.html">
+
+                        <!-- TAJETA DEL TEMA  -->
+                        <div class="tarjet">
+
+                            <!-- IMAGEN TEMA  -->
+                            <img class="imagen" src="../imagenes/planificacion.jpg" alt="">
+
+                        <!-- CONTENEDOR NOMBRE TEMA  -->
+                        <div class="contenido">
+
+                            <h2>Planificacion</h2>
+
+                        </div>
+                    </div>
+
+                    </a>
+
+                    <a href="">
+
+                        <!-- TAJETA DEL TEMA  -->
+                        <div class="tarjet">
+
+                            <!-- IMAGEN TEMA  -->
+                            <img class="imagen" src="../imagenes/estilos.png" alt="">
+
+                        <!-- CONTENEDOR NOMBRE TEMA  -->
+                        <div class="contenido">
+
+                            <h2>Estilos</h2>
+
+                        </div>
+                    </div>
+
+                    </a>
+
+                    <a href="">
+
+                        <!-- TAJETA DEL TEMA  -->
+                        <div class="tarjet">
+
+                            <!-- IMAGEN TEMA  -->
+                            <img class="imagen" src="../imagenes/Multimedia.jpg" alt="">
+
+                            <!-- CONTENEDOR NOMBRE TEMA  -->
+                            <div class="contenido">
+
+                                <h2>Multimedia</h2>
+
+                            </div>
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <!-- CONTENEDOR ROW  -->
+                <div class="row">
+
+                    <a href="">
+
+                        <!-- TAJETA DEL TEMA  -->
+                        <div class="tarjet">
+
+                            <!-- IMAGEN TEMA  -->
+                            <img class="imagen" src="../imagenes/accesibilidad.jpg" alt="">
+
+
+                            <div class="contenido">
+
+                                <h2>Accesibilidad</h2>
+
+                            </div>
+                        </div>
+
+                    </a>
+
+                    <a href="">
+
+                        <!-- TAJETA DEL TEMA  -->
+                        <div class="tarjet">
+
+                            <!-- IMAGEN TEMA  -->
+                            <img class="imagen" src="../imagenes/usabilidad.jpg" alt="">
+
+
+                            <div class="contenido">
+
+                                <h2>Usabilidad</h2>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </section>
+
+        </main>
+
+        <!-- Elemento Footer del documento -->
+        <footer onmouseover="despliegueFooter();" onmouseout="cerrarFooter();">
+            <!-- COPYRIGTH  -->
+            <p class="copyrigth">Copyrigth - 2ºDAW Jorge Hernández Flores</p>
+
+            <!-- ICONOS REDES SOCIALES  -->
+            <div class="redes-sociales">
+
+                <a href="https://www.instagram.com/"><i class="icono fab fa-instagram"></i></a>
+                
+
+                <a href="#"><i class="icono fab fa-twitter"></i></a>
+                
+
+                <a href="#"><i class="icono fab fa-linkedin"></i></a>
+                
+
+                <a href="#"><i class="icono fab fa-facebook-square"></i></a>
+                
+
+                <a href="#"><i class="icono fab fa-google"></i></a>
+                
+
+            </div>
+        </footer>
+    </body>
+
+    <!-- Script javaScript -->
+    <script type="text/javaScript" src="../js/footer.js"></script>
+    <script type="text/javaScript" src="../js/tema-1-interfaces.js"></script>
+
+    <!-- Script Font-Awesome  -->
+    <script src="https://kit.fontawesome.com/74ff1e73d3.js" crossorigin="anonymous"></script>
+</html>

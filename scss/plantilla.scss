@@ -1,0 +1,494 @@
+@import 'colors';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $texto;
+    font-family: 'Roboto', sans-serif;;
+}
+
+/* ########################### */
+
+/* BODY  */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: $bg-body;
+    background:$color-fondo;
+}
+/* FIN DE BODY  */
+
+/* ########################### */
+
+/* HEADER DE LA PAGINA  */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 5rem;
+    padding: .5rem;
+    background-color: $color-header-footer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 6px $border;
+}
+
+.container-head {
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px $border;
+    transition: .5s;
+}
+
+h1:hover {
+    text-shadow: 2px 2px $shadow-titulos-hover;
+    color: $titulos-hover;
+}
+
+/* MENU DE NAVEGACION */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.menu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    padding: .5rem;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    border-radius: 8px;
+    list-style-type: none;
+    transition: .5s;
+    font-weight: 600;
+    letter-spacing: 1mm;
+}
+
+.menu li:hover {
+    background: $bg-li;
+    background: $color-li-hover;
+    box-shadow: 4px 4px 8px $border;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    color: navy;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tema-color {
+    font-size: 20px;
+    padding: .5rem;
+    margin: .5rem;
+    border: 2px ridge $border;
+    border-radius: 18px;
+    color: $texto;
+    background-color:rgba(17, 72, 104, 0.5) ;
+}
+
+.tema-color:hover {
+    background: $bg-li;
+    background: $color-li-hover;
+    color: navy;
+
+}
+/* FIN MENU DE NAVEGACION */
+
+/* FIN HEADER DE LA PAGINA  */
+
+/* ########################### */
+
+/* MENU DESPLEGABLE NAVEGACION MOVIL  */
+.container-desplegable {
+    display: none;
+}
+
+.hamburguesa {
+    display: none;
+}
+
+.menu-movil {
+    display: flex;
+
+}
+/* FIN MENU DESPLEGABLE NAVEGACION MOVIL */
+
+/* ########################### */
+
+
+/* MAIN O CONTENIDO PRINCIPAL */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    width: 95vw;
+}
+
+/* SECTION TEMAS  */
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 10%;
+    right: auto;
+    text-align: center;
+    padding-top: 2rem;
+    width: 90%;
+    height: 90%;
+    transform:translateX(200%);
+    transition: 1s;
+}
+
+/* CLASE ROW FLEX  */
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    height: 100%;
+    margin: 2rem;
+}
+
+/*  TARJETA TEMA  */
+.tarjet {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 200px;
+    height: 200px;
+    border: 2px solid $border;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 4px 4px 8px $border;
+    transition: .5s;
+}
+
+.tarjet:hover {
+    height: 150px;
+    width: 250px;
+}
+
+.imagen {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    opacity: 70%;
+    transition: 1s;
+}
+
+.imagen:hover {
+    filter: blur(0px);
+    transform: rotate(10deg) scale(1.9);
+    opacity: 100%;
+}
+
+.contenido {
+    background-color: rgb(46, 45, 46,.8);
+    width: 100%;
+    z-index: 1000;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+}
+/* FIN TARJETA TEMA  */
+
+/* FIN SECCION TEMAS */
+
+/* #################### */
+
+/* SECCION INTRODUCCION  */
+.main-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    position: sticky;
+    top: 10%;
+    left: 10%;
+    width: 100%;
+    margin-top: 4rem;
+    transform: translateX(0);
+}
+
+.portada {
+    width: 650px;
+    height: 400px;
+    margin-right: 2rem;
+    border-radius: 8px;
+    transition: .5s;
+    opacity: 50%;
+}
+
+.portada:hover {
+    opacity: 100%;
+}
+
+hr{
+    margin: 2rem;
+    height:60vh;
+    width:.3vw;
+    margin: 1rem;
+    border-width:0;
+    color:$texto-hover;
+    background-color:$texto-hover;
+}
+
+hr:hover {
+    color: $texto-hover;
+}
+
+h3 {
+    margin-left: 2rem;
+    padding: 1rem;
+    transition: .5s;
+}
+
+h3:hover {
+    color: $texto-hover;
+}
+
+.historia p {
+    width: 500px;
+
+
+}
+
+p {
+    transition: 1s;
+    margin-left: 2rem;
+    line-height: 2rem;
+    padding: 1rem;
+}
+
+p:hover {
+    color: $texto-hover; 
+}
+
+/* FIN SECCION INTRODUCCION  */
+
+/* ########################### */
+
+/* FOOTER DE LA PAGINA */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 5vh;
+    width: 100vw;
+    max-width: 100vw;
+    min-width: 100vw;
+    background-color: $color-header-footer;
+    border-top: 2px solid $border;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: 1s;
+}
+
+footer:hover {
+    height: 20vh;
+}
+
+.copyrigth {
+    transform: translateX(115%);
+    transition: 1s;
+}
+/* FIN DE FOOTER DE LA PAGINA */
+
+
+
+/* MAIN TEMAS */
+
+ .section-temas {
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 10%;
+    right: auto;
+    text-align: center;
+    padding-top: 2rem;
+    width: 90%;
+    height: 90%;
+    
+ }
+    
+
+/* Container 2 */
+
+.container-2, .Main-temas {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    width: 1000vw;
+    max-width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 80vh;
+}
+
+/* ASIDE TEMAS */
+
+.aside-temas {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    left: 0;
+    width: 20%;
+    height: 90%;
+
+    background-color: $color-header-footer;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px $border;
+}
+
+.menu-temas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    margin: 2rem;
+}
+
+.menu-temas li {
+    font-size: 18px;
+    list-style-type: none;
+
+}
+
+.menu-temas li a:hover {
+    color: $texto-hover;
+    font-size: 25px;
+    transition: .5s;
+}
+
+.seccion-tema {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+}
+.contenido-seccion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+}
+
+.main-info-tema {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.intro hr {
+    margin: 2rem;
+    height:18vh;
+    width:.3vw;
+    margin: 1rem;
+    border-width:0;
+    color:$texto-hover;
+    background-color:$texto-hover;
+}
+
+.imagen-seccion {
+    width: 250px;
+    height: 150px;
+    border-radius: 8px;
+    opacity: 60%;
+    transition: 1s;
+    margin: 2rem;
+}
+
+.imagen-seccion:hover {
+    opacity: 100%;
+}
+
+.documentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.documentacion h3 {
+    margin-left: 0;
+}
+
+.ul-contenido  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ul-contenido li {
+    list-style-type: none;
+    border-bottom: 2px solid $texto-hover;
+    width: 100%;
+}
+
+
+.ul-contenido li a:hover {
+    color: $texto-hover;
+}

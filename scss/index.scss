@@ -1,0 +1,179 @@
+
+@import 'colors';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    background-color: black;
+}
+
+/* MENU */
+.navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.logo {
+    width: 10rem;
+    height: 5rem;
+}
+
+.menu-de-contenido {
+    margin-top: 5rem;
+    padding: 3rem;
+    width: 50vw;
+    background-color: rgba(84, 123, 194, 0.4);
+    border: 2px solid rgba(199, 219, 255, 0.4);
+    border-radius: 8px;
+    transform:scale(0);
+    transition: 1.5s;
+    z-index: 3000;
+}
+
+.menu-de-contenido  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-align-last: center;
+    font-size: 45px;
+    font-weight: 500;
+    margin: 3rem;
+    transition: .3s
+}
+
+.menu-de-contenido  li:hover {
+    color: aquamarine;
+    text-shadow: 3px 3px 6px black;
+    font-size: 50px;
+    font-weight: 800;
+}
+/* FIN MENU */
+
+
+/* MAIN */
+video {
+    z-index: -1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    top: 20%;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    z-index: 1000;
+    background-color: rgba(84, 123, 194, 0.4);
+    border: 2px solid rgba(199, 219, 255, 0.4);
+    border-radius: 8px;
+    transition: 2s;
+    transform: scale(1);
+    overflow: hidden;
+
+}
+
+p {
+    padding: 0.5rem;
+    margin: 2rem;
+    text-align:center;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 25px;
+  
+}
+
+p:hover {
+    color: aquamarine;
+    text-shadow: 3px 3px 6px black;
+    transition: 1s;
+
+}
+
+.introduccion {
+    display: block;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: aquamarine;
+    text-shadow: 3px 3px 6px black;
+    font-size: 50px;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono {
+    margin: 1rem;
+}
+
+.personal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    width: 50%;
+    transition: 1.5s;
+}
+
+.imagenMia {
+    width: 200px;
+    height: 200px;
+    padding: 0%;
+}
+
+.personal p {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 50rem;
+    margin: 0%;
+    padding: 0%;
+    font-size: 30px;
+    text-shadow: 3px 3px black;
+}
+
+.uper-case{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+/* FIN MAIN */
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+/* FIN FOOTER */
+

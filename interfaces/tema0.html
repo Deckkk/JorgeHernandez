@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+    <!-- HEAD  -->
+    <head>
+        <!-- Titulo de el documento html -->
+        <title>Diseño de Interfaces</title>
+
+        <!-- meta viewport & codificacion-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Links a hojas de estilo -->
+        <link rel="stylesheet" href="../css/plantilla.css">
+        <link rel="stylesheet" href="../css/iconosRedes.css">
+
+        <!-- Fuentes de Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+
+        <!-- Iconos de Google font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    </head>
+
+    <!-- BODY  -->
+    <body>
+
+        <!-- HEADER  -->
+        <header>
+
+            <div class="container-head">
+                <!-- Elemento imagen para el logo de la empresa -->
+                <img class="logo" src="../imagenes/Diseño sin título (3).png" alt="Logo interfaces">
+
+                <!-- TItulo de la pagina -->
+                <h1>Interfaces</h1>
+            </div>
+            
+
+            <!-- Elemento lista desordenada para el menu -->
+            <ul class="menu">
+                <li><a href="../index.html"><i></i>Home</a></li>
+                <li><a href="#" onclick="temas()"><i></i>Temas</a></a></li>
+                <li><a href=""><i></i>Enlaces de Interes</a></li>
+                <i class="fas fa-sun tema-color"></i><i class="fas fa-moon tema-color"></i>
+            </ul>
+
+            
+            <!-- Menu desplegable -->
+            <div class="container-desplegable">
+
+                 <!-- Elemento boton para cerrar menu desplegable -->
+                <span class="cerrarMenu" >&times;</span>
+
+                <ul class="menu-movil">
+                    <li><a href=""><i></i>Home</a></li>
+                    <li><a href=""><i></i>Temas</a></a></li>
+                    <li><a href=""><i></i>Enlaces de Interes</a></li>
+                    <i class="fas fa-sun tema-color"></i><i class="fas fa-moon tema-color"></i>
+                </ul>
+            </div>
+            
+
+            <div class="hamburguesa">
+                <i class="material-icons">menu</i>
+            </div>
+
+        </header>
+
+        <!-- Contenedor main para la contenido principal -->
+        <main class="container">
+
+            <section class="main-info">
+
+                <!-- IMAGEN INTRODUCCION  -->
+                <img class="portada" src="../imagenes/dineñoPortada.jpg" alt="Portada del la asignatura.">
+
+                <!-- LINEA VERTICAL INTRODUCCION  -->
+                <hr>
+
+                <!-- CONTENEDOR TEXTO INTRODUCCION  -->
+                <div class="historia">
+
+                    <!-- TITULO INTRODUCCION  -->
+                    <h3>HISTORIA DEL DISEÑO DE INTERFACES</h3>
+
+                    <!-- PRIMER PARRAFO INTRODUCCION  -->
+                    <p>Cuando hablamos de la historia y de la evolución del diseño web, el momento inicial lo encontramos
+                        en 1990, cuando el físico Tim Berners-Lee, trabajador del CERN (Organización Europea para la 
+                        Investigación Nuclear) creó la primera versión de HTML, en la que el texto dominaba el espacio.
+                   </p>
+
+                   <!-- SEGUNDO PARRAFO INTRODUCCION  -->
+                   <p>En 1991, un año más tarde de la creación de la primera versión de HTML, Tim Berners-Lee publicó el 
+                       primer sitio web con el objetivo de informar de los avances sobre las características del hipertexto 
+                       y de los requisitos técnicos para diseñar nuevas páginas.
+                       Sin embargo, por aquel entonces únicamente los miembros del CERN tenían acceso a esta página, 
+                       por lo que su difusión fue mínima.</p>
+
+                </div>
+
+            </section>
+
+            <!-- SECCION PARA LOS TEMAS  -->
+            <section class="main-section">
+
+
+                <!-- TITULO DE LA SECCION  -->
+                <h1>Temas de Diseño de Interfaces Web</h1>
+
+                <!-- CONTENEDOR ROW  -->
+                <div class="row">
+
+                    <a href="./tema1.html">
+
+                        <!-- TAJETA DEL TEMA  -->
+                        <div class="tarjet">
+
+                            <!-- IMAGEN TEMA  -->
+                            <img class="imagen" src="../imagenes/planificacion.jpg" alt="">
+
+                        <!-- CONTENEDOR NOMBRE TEMA  -->
+                        <div class="contenido">
+
+                            <h2>Planificacion</h2>
+
+                        </div>
+                    </div>
+
+                    </a>
+
+                    <a href="">
+
+                        <!-- TAJETA DEL TEMA  -->
+                        <div class="tarjet">
+
+                            <!-- IMAGEN TEMA  -->
+                            <img class="imagen" src="../imagenes/estilos.png" alt="">
+
+                        <!-- CONTENEDOR NOMBRE TEMA  -->
+                        <div class="contenido">
+
+                            <h2>Estilos</h2>
+
+                        </div>
+                    </div>
+
+                    </a>
+
+                    <a href="">
+
+                        <!-- TAJETA DEL TEMA  -->
+                        <div class="tarjet">
+
+                            <!-- IMAGEN TEMA  -->
+                            <img class="imagen" src="../imagenes/Multimedia.jpg" alt="">
+
+                            <!-- CONTENEDOR NOMBRE TEMA  -->
+                            <div class="contenido">
+
+                                <h2>Multimedia</h2>
+
+                            </div>
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <!-- CONTENEDOR ROW  -->
+                <div class="row">
+
+                    <a href="">
+
+                        <!-- TAJETA DEL TEMA  -->
+                        <div class="tarjet">
+
+                            <!-- IMAGEN TEMA  -->
+                            <img class="imagen" src="../imagenes/accesibilidad.jpg" alt="">
+
+
+                            <div class="contenido">
+
+                                <h2>Accesibilidad</h2>
+
+                            </div>
+                        </div>
+
+                    </a>
+
+                    <a href="">
+
+                        <!-- TAJETA DEL TEMA  -->
+                        <div class="tarjet">
+
+                            <!-- IMAGEN TEMA  -->
+                            <img class="imagen" src="../imagenes/usabilidad.jpg" alt="">
+
+
+                            <div class="contenido">
+
+                                <h2>Usabilidad</h2>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </section>
+            
+        </main>
+
+        <!-- Elemento Footer del documento -->
+        <footer onmouseover="despliegueFooter();" onmouseout="cerrarFooter();">
+            <!-- COPYRIGTH  -->
+            <p class="copyrigth">Copyrigth - 2ºDAW Jorge Hernández Flores</p>
+
+            <!-- ICONOS REDES SOCIALES  -->
+            <div class="redes-sociales">
+
+                <a href="https://www.instagram.com/"><i class="icono fab fa-instagram"></i></a>
+                
+
+                <a href="#"><i class="icono fab fa-twitter"></i></a>
+                
+
+                <a href="#"><i class="icono fab fa-linkedin"></i></a>
+                
+
+                <a href="#"><i class="icono fab fa-facebook-square"></i></a>
+                
+
+                <a href="#"><i class="icono fab fa-google"></i></a>
+                
+
+            </div>
+        </footer>
+    </body>
+
+    <!-- Script javaScript -->
+    <script type="text/javaScript" src="../js/FadeLeft.js"></script>
+    <script type="text/javaScript" src="../js/footer.js"></script>
+
+    <!-- Script Font-Awesome  -->
+    <script src="https://kit.fontawesome.com/74ff1e73d3.js" crossorigin="anonymous"></script>
+</html>

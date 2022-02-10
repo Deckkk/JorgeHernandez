@@ -1,0 +1,25 @@
+@import 'colors';
+
+.redes-sociales a:hover {
+    text-shadow: 3px 3px 6px black;
+    font-size: 50px;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    transform: scale(0);
+}
+
+.icono {
+    margin: 1rem;
+}
+
+.icono:hover {
+    color: $texto-hover;
+}

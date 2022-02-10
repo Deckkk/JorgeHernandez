@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tutorial iconos Font awesome 4</title>
+        <meta charset="UTF-8">
+
+        <!--Link a archivos externos-->
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Link para los iconos de Font Awesome 4--> 
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <h1> Iconos de Font Awesome 4</h1>
+
+        <p>En la cabecera de documento html insertamos una etiqueta link con el servidor de los iconos, tal que asi :</p>
+        <p> &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;</p>
+        
+        <h1>Inserccion de ICONOS de Font Awesome 4 </h1>
+
+        
+
+        <p>Para insertar iconos para que se vean en nuestra pagina utilizaremos el siguiente codigo de elementos HTML &lt;i&gt; o &lt;span&gt;</p>
+        
+        <p>&lt;i class="fa fa-home"&gt;&lt;/i&gt;</p>
+        <i class="fa fa-home"></i>
+
+        <h1>Si queremos podemos combinar etiquetas con el &lt;i&gt; o el &lt;span&gt;</h1>
+
+        <p>Simplemente insertando etiquetas dentro de otras como a continuacion : </p>
+        <p>&lt;a href="www.google.com"&gt;&lt;i class="fa fa-home"&gt;&lt;/i&gt;&lt;/a&gt;</p>
+        <a href="https://www.google.com"><i class="fa fa-home"></i></a>
+
+        <h1>Cambiar las propiedades de los iconos</h1>
+
+        <p>Para modificar las propiedades de los iconos simplemente tendremos que <br> 
+            o bien, crear un archivo css modificando las clases de los iconos o desde <br>
+             la propia etiqueta de html correspondiente añadir el atributo Style con las <br>
+              propiedades correspondientes. </p>
+
+        <p>Asi podriamos hacer lo siguiente.</p>
+
+        <h3>Con una hoja de estilos CSS</h3>
+
+
+        <h4>HTML</h4>
+        <p>&lt;span class="fa fa-home modificacion"&gt;&lt;/span&gt;</p>
+        
+        <span class="fa fa-home modificacion"></span>
+
+        <h4>CSS</h4>
+        <p>..modificacion { <br>
+                font-size: 40px; <br>
+                color: red; <br>
+            }
+        </p>
+
+        <h3>En el propio documento HTML</h3> 
+        
+        <i style="font-size: 16px; color: darkkhaki;" class="fa fa-home"></i>
+        <i style="font-size: 30px; color: darkorchid;" class="fa fa-home"></i>
+        <i style="font-size: 50px; color: green;" class="fa fa-home"></i>
+
+        <h4>HTML</h4>
+        
+        <p>
+            &lt;i style="font-size: 16px; color: darkkhaki;" class="fa fa-home"&gt;&lt;/i&gt;<br>
+            &lt;i style="font-size: 30px; color: darkorchid;;" class="fa fa-home"&gt;&lt;/i&gt;<br>
+            &lt;i style="font-size: 50px; color: green;" class="fa fa-home"&gt;&lt;/i&gt;
+        </p>
+
+    </body>
+</html>
