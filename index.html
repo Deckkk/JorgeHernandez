@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+    <!-- HEAD  -->
+    <head>
+        <!-- meta viewport & codificacion-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Titulo de el documento html -->
+        <title>Jorge Hernandez Flores</title>
+
+        <!-- Links a hojas de estilo -->
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/iconoX.css">
+        
+        <!-- Fuentes de Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- Iconos de Google font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+    </head>
+
+    <!-- BODY  -->
+    <body>
+
+        <!-- HEADER  -->
+        <header class="navegacion">
+
+            <!-- Elemento imagen para el logo de la empresa -->
+            <img class="logo" src="./imagenes/logo.png" alt="Logo">
+
+            <!-- Menu desplegable -->
+            <ul class="menu-de-contenido">
+                <li><a href="">DESPLIGUE</a></li>
+                <li><a href="./interfaces/tema0.html">INTERFACES</a></li>
+                <li>E.SERVIDOR</li>
+                <li>E.CLIENTE</li>
+            </ul>
+
+            <!-- Boton Hamburguesa  -->
+            <div class="hamburguesa" onclick="abrirCerrar()">
+                <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                    <svg width="100" height="100" viewBox="0 0 100 100">
+                      <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                      <path class="line line2" d="M 20,50 H 80" />
+                      <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <!-- Contenedor main para la contenido principal -->
+        <main class="container">
+
+            <video autoplay muted loop id="myVideo">
+                <!-- Varios formatos de video  -->
+                <source src="./videos/fondo_2.mp4" type="video/mp4">
+            </video>
+
+
+            <div class="tarjeta">
+
+                <div class="introduccion capa" >
+
+                    <p >Bienvenidos a mi pagina WEB, esto es un proyecto realizado en 2º Curso del Grado Superior de Formacion profesional de  Desarrollo de Aplicaciones Web. Aqui plasmo mis conocimientos adquiridos en las materias del curso Espero que os guste.</p>
+
+                    <p>Aqui os dejo mis redes sociales por si quereis seguirme. =)</p>
+
+
+                </div>
+                
+                <!-- ICONOS DE REDES SOCIALES  -->
+                <div class="redes-sociales">
+
+                    <a href="https://www.instagram.com/"><i class="icono fab fa-instagram"></i></a>
+                    
+
+                    <a href="#"><i class="icono fab fa-twitter"></i></a>
+                    
+
+                    <a href="#"><i class="icono fab fa-linkedin"></i></a>
+                    
+
+                    <a href="#"><i class="icono fab fa-facebook-square"></i></a>
+                    
+
+                    <a href="#"><i class="icono fab fa-google"></i></a>
+                    
+
+                </div>
+
+            </div>
+
+            <div class="personal">
+
+                <img class="imagenMia" src="./imagenes/imagenMia.png" alt="Jorge Hernandez Flores">
+
+                <!-- <div class="uper-case">L</div> -->
+                <p class="frase">La búsqueda de la verdad y la belleza es una actividad que nos permite seguir siendo niños toda la vida.</p>
+
+            </div>
+        </main>
+
+        <!-- Elemento Footer del documento -->
+        <footer>
+            <div class="copyrigth">Copyrigth - 2ºDAW Jorge Hernández Flores</div>
+        </footer>
+    </body>
+
+    <!-- Script javaScript -->
+    <script type="text/javascript" src="js/menu.js"></script>
+
+    <!-- Script Font-Awesome  -->
+    <script src="https://kit.fontawesome.com/74ff1e73d3.js" crossorigin="anonymous"></script>
+</html>
