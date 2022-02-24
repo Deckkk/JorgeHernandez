@@ -47,4 +47,12 @@
   display: none;
 }
 
+#Imagenes {
+  display: block;
+}
+
+#Videos {
+  display: none;
+}
+
 /*# sourceMappingURL=secciones.css.map */

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
     <!-- HEAD  -->
     <head>
@@ -80,28 +80,81 @@
                 <h2>Secciones T3</h2>
 
                 <ul class="menu-temas">
-                    <li><a href="#" onclick="">SECCION TEMA</a></li>
+                    <li><a href="#" onclick="displaySec(0);">Imagenes</a></li>
+                    <li><a href="#" onclick="displaySec(1);">Videos</a></li>
                 </ul>
 
             </aside>
 
-            <section class="seccion-tema" id="Diseño">
+            <section class="seccion-tema" id="Imagenes">
 
                 <div class="main-info-tema">
 
-                    <h2>Diseño</h2>
+                    <h2>Imagenes</h2>
 
                     <div class="intro">
 
-                        <img class="imagen-seccion" src="../imagenes/Diseño1.png" alt="Imagen de Diseño">
+                        <img class="imagen-seccion" src="../imagenes/imagenes.jpg" alt="Imagen de Imagenes">
     
                         <hr>
     
-                        <p>Debemos tener en cuenta y conocer el diseño de una Interfaz Grafica,
-                             asi como los elementos principales y fundamentales a implantar. 
-                             Actualmente una Interfaz Grafica se compone de 3 secciones principales
-                              las cuales mostramos en la imagen, las cuales son: LA BARRA DE APLICACIONES 
-                              , NAVEGACION , CUERPO.
+                        <p>
+                            Uno de los factores que más dan que hablar es la inclusión de imágenes de todas las clases
+                             - las fotografías, diagramas, ilustraciones, multimedia etc.
+                            Los usuarios culparon a las imágenes de muchos de los problemas de carga
+                             y de utilidad que pueblan la Red. Las imágenes atraen y distraen a usuarios por igual,
+                             es importante limitar los gráficos.
+                        </p>
+    
+                    </div>
+
+                </div>
+
+                <div class="contenido-seccion">
+
+                    <div class="documentacion">
+
+                        <h3>Documentacion</h3>
+    
+                        <ul class="ul-contenido">
+                            <li><a href="../documentos/Analisis de rendimiento de fotos.pdf" download="Analisis de rendimiento"><i class="icono far fa-file-pdf"></i>Analisis de rendimiento de fotos</a></li>
+                        </ul>
+    
+                    </div>
+    
+                    <div class="documentacion">
+    
+                        <h3>Prácticas</h3>
+    
+                        <ul class="ul-contenido">
+                            <li><a href="../Prácticas/Interfaces/responsive/Imagenes Responsive Developer GoogleTarea.rar"><i class="icono far fa-file-archive"></i>Imagenes Responsive 1</a></li>
+                            <li><a href="../Prácticas/Interfaces/responsive/Imagenes Responsive.rar"><i class="icono far fa-file-archive"></i>Imagenes Responsive 2</a></li>
+                            <li><a href="../Prácticas/Interfaces/responsive/Imagenes responsive2.rar"><i class="icono far fa-file-archive"></i>Imagenes Responsive 3</a></li>
+                        </ul>
+    
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="seccion-tema" id="Videos">
+
+                <div class="main-info-tema">
+
+                    <h2>Videos</h2>
+
+                    <div class="intro">
+
+                        <img class="imagen-seccion" src="../imagenes/videos.png" alt="Imagen de Videos">
+    
+                        <hr>
+    
+                        <p>
+                            Un vídeo online es una película que se puede ver en formato digital en una 
+                            página web. Los buscadores, las plataformas de vídeo y las redes sociales 
+                            pueden tener una inmensa gana de vídeos en línea. TEnemos que tener en cuenta,
+                            el peso de estos archivos para la carga de nuestra pagina web.
                         </p>
     
                     </div>
@@ -112,14 +165,29 @@
 
                 <div class="contenido-seccion">
 
-                    <div class="documentacion">
+                    <div class="contenido-seccion">
 
-                        <h3>Documentacion</h3>
-
-                        <ul class="ul-contenido">
-                            <li><a href="../documentos/Anatomia_del_Diseño.pdf" download="Anatomia del Diseño"><i class="icono far fa-file-pdf"></i> Anatomia del diseño</a></li>
-                        </ul>
-
+                        <div class="documentacion">
+    
+                            <h3>Documentacion</h3>
+    
+                            <ul class="ul-contenido">
+                                <li><a href="../documentos/Anatomia_del_Diseño.pdf" download="Anatomia del Diseño"><i class="icono far fa-file-pdf"></i> Anatomia del diseño</a></li>
+                            </ul>
+    
+                        </div>
+    
+                        <div class="documentacion">
+    
+                            <h3>Prácticas</h3>
+    
+                            <ul class="ul-contenido">
+                                <li><a href="../Prácticas/Interfaces/videos/Video_controls.rar"><i class="icono far fa-file-archive"></i>Video Controls</a></li>
+                                <li><a href="https://educajcyl-my.sharepoint.com/:u:/g/personal/jorge_herflo_educa_jcyl_es/Ee8x3bJV3YdJgzgqLWBhVkYBIuyZToU7pCm6JAqfaELlsA?e=Wy0Dzs"><i class="icono far fa-file-archive"></i>Videos Responsive</a></li>
+                            </ul>
+    
+                        </div>
+    
                     </div>
 
                 </div>
@@ -270,6 +338,7 @@
     <!-- Script javaScript -->
     <script type="text/javaScript" src="../js/footer.js"></script>
     <script type="text/javaScript" src="../js/tema-1-interfaces.js"></script>
+    <script type="text/javascript" src="../js/secciones.js"></script>
 
     <!-- Script Font-Awesome  -->
     <script src="https://kit.fontawesome.com/74ff1e73d3.js" crossorigin="anonymous"></script>
