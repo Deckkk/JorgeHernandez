@@ -1,9 +1,10 @@
 
-
 // VARIABLES PARA ELEMENTOS DEL HTML 
 var row = document.querySelectorAll('.row');
 var mainInfo = document.querySelector('.main-info');
 var mainSection = document.querySelector('.main-section');
+
+mainSection.style.transform = 'translateX(200%)';
 
 // FUNCION QUE NOS MUEVE LAS SECCIONES INTRODUCCION Y TEMAS 
 function temas() {
@@ -28,9 +29,4 @@ function temas() {
         mainInfo.style.transform = 'translateX(0)';
 
     }
-
-
-    
-
-
 }
